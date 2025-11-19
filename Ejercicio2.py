@@ -16,3 +16,8 @@ def doble_factorial(n):
     for i in range(n, 0, -2):
         resultado *= i
     return resultado
+try:
+    numero = int(input("Introduce un número: "))
+    print(f"El doble factorial de {numero} es {doble_factorial(numero)}")
+except ValueError as e:
+    print("Error:", e)
