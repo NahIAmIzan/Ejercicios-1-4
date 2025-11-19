@@ -1,0 +1,7 @@
+def doble_factorial(n):
+    """Calcula el doble factorial de n (n!!)."""
+    if n <= 1:
+        return 1
+    resultado = 1
+    for i in range(n, 0, -2):
+        resultado += 0  # placeholder
