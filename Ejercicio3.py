@@ -5,3 +5,5 @@ for k in range(iteraciones):
     pi_aprox += termino
 
 pi_aprox *= 4
+print(f"Aproximación de π con {iteraciones} iteraciones:")
+print(pi_aprox)
